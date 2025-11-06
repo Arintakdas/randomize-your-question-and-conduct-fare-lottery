@@ -1,0 +1,5 @@
+.vscode/
+pics/
+*.c
+*.exe
+assignment_history.json
