@@ -129,8 +129,7 @@ def select_question(problem_list, history_counts):
         if history_counts.get(q, 0) < MAX_ASSIGNMENTS_PER_QUESTION
     ]
 
-    if not available_problems:
-        return None, "All problems in your pool have already been assigned the maximum number of times (4)."
+    
 
     chosen_question = random.choice(available_problems)
     return chosen_question, "Success!"
