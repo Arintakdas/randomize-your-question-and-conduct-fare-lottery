@@ -165,11 +165,11 @@ def main():
                 roll_no = roll_no_input.strip()
                 st.markdown("---")
 
-                if roll_no in history_data["assignments"]:
-                    assigned_question = history_data["assignments"][roll_no]
-                    st.info(f"Your previously assigned question is:")
-                    st.markdown(f"## **{assigned_question}**")
-                    st.balloons()
+                # if roll_no in history_data["assignments"]:
+                #     assigned_question = history_data["assignments"][roll_no]
+                #     st.info(f"Your previously assigned question is:")
+                #     st.markdown(f"## **{assigned_question}**")
+                #     st.balloons()
                 
                 else:
                     problem_pool = []
