@@ -167,7 +167,7 @@ def main():
 
                 if roll_no in history_data["assignments"]:
                     assigned_question = history_data["assignments"][roll_no]
-                    st.info(f"Your assigned question is:")
+                    st.info(f"🎉 Congrats! Roll Number **{roll_no}** found. Selecting from your 13 chosen problems...")
                     st.markdown(f"## **{assigned_question}**")
                     st.balloons()
                 
