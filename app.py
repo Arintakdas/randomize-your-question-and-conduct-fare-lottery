@@ -5,7 +5,7 @@ import json
 import os
 import re
 
-DATA_FILE = "DSA_PCA_2.xlsx"
+DATA_FILE = "DSA PCA 2.xlsx"
 HISTORY_FILE = "assignment_history.json"
 ROLL_NO_COLUMN = "Roll No."
 PROBLEMS_COLUMN = "Please choose any 13 Probem Statements from the following"
